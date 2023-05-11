@@ -1,0 +1,523 @@
+:root {
+    --dm: 'DM Sans';
+    --font: 'Montserrat';
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar qismi */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+}
+
+.navbar h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #244D4D;
+}
+
+.navbar-list a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #161616;
+}
+
+.navbar span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    cursor: pointer;
+}
+
+
+.header {
+    display: flex;
+    padding-top: 30px;
+}
+
+.header-img {
+    width: 411px;
+    height: 560px;
+}
+
+.header-img img {
+    display: flex;
+    width: 100%;
+}
+
+.header-box {
+    background-color: #154444;
+    height: 560px;
+    width: calc(100% - 411px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-box div {
+    margin-left: 70px;
+}
+
+.header-box h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    width: 671px;
+    color: #FFFFFF;
+}
+
+.header-box p {
+    width: 488px;
+    height: 75px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 13px 0;
+    color: #FFFFFF;
+}
+
+.header-box button {
+    background: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.pay-page {
+    margin-top: 140px;
+}
+
+.pay-text h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #244D4D;
+}
+
+
+
+
+
+
+
+.about {
+    margin-top: 146px;
+}
+
+.about .right {
+    margin-left: 110px;
+    margin-top: 45px;
+}
+
+.about .left img {
+    width: 600px;
+    height: 612px;
+}
+
+.about .box img {
+    width: 50px;
+    height: 50px;
+}
+
+.about .box {
+    padding-top: 40px;
+}
+
+.about .box h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #244D4D;
+}
+
+.about .box p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #383738;
+}
+
+.about .box .text {
+    margin-left: 30px;
+}
+
+
+.left-slider img {
+    transform: rotate(180deg);
+}
+
+
+/* furniture */
+.furniture-menu,
+.furniture{
+    margin-top: 140px;
+}
+
+.furniture-card{
+    margin-top: 80px;
+}
+
+.furniture-slider {
+    height: 80%;
+}
+
+.furniture-text h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #242424;
+    margin-bottom: 20px;
+}
+
+.furniture-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #383738;
+}
+
+.furniture-slider button {
+    background-color: #F4F6F6;
+    border: none;
+    border-radius: 50%;
+    padding: 6px 13px;
+    margin-left: 16px;
+}
+
+.furniture-card {
+    background-color: #FFFFFF;
+    box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+}
+.card-text {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card-price,
+.card-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card-img img {
+    width: 350px;
+}
+
+.left-text h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #242424;
+}
+
+.right-text img {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    background-color: #ECF4FF;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.card-like:hover{
+    background: #EF5423;
+}
+
+.card-share:hover{
+    background: #4f5aff;
+}
+
+.card-price{
+    padding-bottom: 25px;
+}
+
+.card-price h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #154444;
+}
+
+.card-price a {
+    color: white;
+    padding: 5px 14px;
+    background: #244D4D;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+
+main .glavni-page {
+    padding-bottom: 97px;
+}
+
+main .glavni-page h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #242424;
+}
+
+main .glavni-page ul li a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    color: #919090;
+    font-family: var(--dm);
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+main .glavni-page ul li a:hover {
+    color: #154444;
+    transition: 500ms ease;
+
+}
+
+main .connecs {
+    margin-bottom: 140px;
+}
+
+main .connecs .right {
+    margin-left: 117px;
+}
+
+main .connecs .right .box {
+    width: 222px;
+    height: 90px;
+    border: 1.5px solid #D9DCE5;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+main .connecs .right .box:hover {
+    background: #154444;
+    color: #fff;
+    transition: 600ms ease;
+}
+
+main .connecs .right .box img {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+main .connecs .right .box h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #808080;
+}
+
+
+main .about-us{
+    margin-bottom: 140px;
+}
+main .about-us .about {
+    background: #F4F6F6;
+}
+
+main .about-us .about h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #222222;
+    margin-top: 68px;
+}
+
+main .about-us .about p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #222222;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+main .about .forms {
+    width: 470px;
+    height: 67px;
+    margin-left: 350px;
+    margin-bottom: 55px;
+    background-color: #fff;
+}
+
+main .about .forms input {
+    padding: 15px;
+    border: none;
+}
+main .about .forms i{
+    margin-left: 20px;
+}
+main .about .forms button {
+    margin-left: 80px;
+    background: #305F64;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 31px;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+
+main .commentary-page {
+    margin-bottom: 140px;
+}
+
+main .commentary-page .fon {
+    margin-left: 90px;
+}
+
+main .commentary-page .otziv .left {
+    background: url(../image/Ellipse\ 25.png);
+}
+
+main .commentary-page .otziv .right {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+main .commentary-page .otziv .right h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #242424;
+}
+
+main .commentary-page .otziv .right p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #383738;
+}
+
+main .commentary-page .otziv .right .people img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+main .commentary-page .otziv .right .people .name h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+main .commentary-page .otziv .right .people .name {
+    margin-left: 10px;
+}
+
+
+
+/* FOOTER */
+footer{
+    background: #305F64;
+    padding-bottom: 20px;
+}
+footer .all-divs{
+    padding-top: 100px;
+}
+footer .all-divs .follow h1{
+    font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+}
+footer .all-divs .follow p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #FFFFFF;
+}
+footer .all-divs .follow i{
+    color: #fff;
+    margin-left: 5px;
+}
+/* follow end  */
+footer .tour h1{
+    font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+color: #FFFFFF;
+}
+footer .tour ul li a{
+    font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+}
+/* tour end  */
+footer .company h1{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+footer .company ul li a{
+    font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+}
+/* company end  */
+footer .subscribe h1{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+footer .subscribe p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+}
+footer .subscribe input{
+    width: 253px;
+height: 48px;
+}
+footer .info h1{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+}
